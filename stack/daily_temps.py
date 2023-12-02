@@ -1,5 +1,7 @@
 temperatures = [73, 28, 29, 55, 49]
 
+# VERSION WITH range len
+
 
 def dailyTemperatures(self, temperatures):
     res = [0] * len(temperatures)
@@ -18,7 +20,6 @@ def dailyTemperatures(self, temperatures):
     return res
 
 
-# VERSION WITH range len
 stack = []
 result = [0] * len(temperatures)
 

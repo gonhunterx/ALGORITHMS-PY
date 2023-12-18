@@ -1,0 +1,24 @@
+Sliding window is good for use on things we iterate over sequencially
+    - contiguous sequence of elements (elemts grouped together)
+    - Strings, arrays, linked lists
+
+Finding the min, max, Longest, Shortest, Contained within a given string, array, list
+    - need to calculate
+
+
+Questions: 
+Fixed Length    
+    - max sum subarray of size k 
+Dynamic Variant 
+    - find the smallest sum >= some value (S)
+    - w/ auxilary datastructure (hashmap, hashset, additional array)
+
+Longest substring w/ no more than k distinct characters 
+
+String Permutations:
+    - Does that second string exist as a permutation of the first 
+
+
+COMMONALITIES
+- Everything grouped sequencially 
+- logest/smalles/contains/min/max

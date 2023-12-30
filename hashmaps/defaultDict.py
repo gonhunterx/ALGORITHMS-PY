@@ -10,3 +10,13 @@ for word in words:
     grouped_words[word[0]].append(word)
 
 print(grouped_words)
+
+
+capitals = {
+    "USA": "Washington DC",
+    "India": "New Dehli",
+    "China": "Bejing",
+    "Russia": "Moscow",
+}
+
+print(capitals["Russia"])

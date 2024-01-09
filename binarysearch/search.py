@@ -20,4 +20,4 @@ def search(nums, target):
         return -1
 
 
-print(search(nums, target))
+print(f"target at index: {search(nums, target)}")
